@@ -31,9 +31,15 @@ body {
     font-weight: 200;
 }
 
+.nav-link {
+    font-weight: 200;
+    margin: 0 10px 0;
+}
+
+/* Section Header */
+
 .header-h1 {
     color: #DFEEEA;
-    /* font-family: 'Montserrat', sans-serif; */
     font-size: 7rem;
     font-weight: 100;
 }
@@ -43,16 +49,20 @@ body {
     font-weight: 100;
 }
 
-.nav-link {
-    font-weight: 200;
-    margin: 0 10px 0;
-}
+/* Section About */
 
 .container-about {
-    /* background-color: rgb(47, 93, 98, .8); */
     background-color: rgb(232, 240, 242, .8);
 
 }
+
+.about-text {
+    line-height: 2.5rem;
+    font-weight: 200;
+    color: #2F5D62;
+}
+
+/* Section Work */
 
 .container-work {
     height: 100%;
@@ -61,13 +71,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.about-text {
-    line-height: 2.5rem;
-    font-weight: 200;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    color: #2F5D62;
 }
 
 .carousel-item {
@@ -92,6 +95,8 @@ body {
 .icons a{
     color: #ddd;
 }
+
+/* Footer */
 
 footer {
     display: flex;
