@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    background: url('/img/mountain2.jpeg') center center/cover no-repeat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ /* Header */
+
+.header-container-fluid {
+    padding: 3% 10%;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: #ddd;
+    border: #DFEEEA 2px solid;
+    padding: 10px;
+    font-weight: 200;
+}
+
+.header-h1 {
+    color: #DFEEEA;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 7rem;
+    font-weight: 100;
+}
+
+.header-h3 {
+    color: #DFEEEA;
+    font-weight: 100;
+}
+
+.nav-link {
+    font-weight: 200;
+    margin: 0 10px 0;
+}
+
+.container-about {
+    /* background-color: rgb(47, 93, 98, .8); */
+    background-color: rgb(232, 240, 242, .8);
+
+}
+
+.container-work {
+    height: 100%;
+    background: url('/img/mountain2.jpeg') center center/cover no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    line-height: 2.5rem;
+    font-weight: 200;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    color: #2F5D62;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-item-title {
+    color: #ddd;
+    font-weight: 200;
+}
+
+.carousel-btn {
+    font-weight: 200;
+    margin: 20px;
+}
+
+.icons {
+    position: relative;
+    left: 32%;
+}
+
+.icons a{
+    color: #ddd;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #666;
+}
+
+footer a, footer a:hover {
+    color: #ddd;
+    margin: 0 -10px 0;
+}
+
+footer h4 {
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0 6px 0;
+}
